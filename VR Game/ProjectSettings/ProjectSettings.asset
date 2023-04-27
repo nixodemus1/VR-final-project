@@ -3,7 +3,7 @@
 --- !u!129 &1
 PlayerSettings:
   m_ObjectHideFlags: 0
-  serializedVersion: 22
+  serializedVersion: 23
   productGUID: b4f8f6fbebe0e1d448dfe5ba7b0876ba
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
@@ -135,7 +135,8 @@ PlayerSettings:
     16:9: 1
     Others: 1
   bundleVersion: 0.1
-  preloadedAssets: []
+  preloadedAssets:
+  - {fileID: 0}
   metroInputSource: 0
   wsaTransparentSwapchain: 0
   m_HolographicPauseOnTrackingLoss: 1
@@ -150,6 +151,7 @@ PlayerSettings:
   m_ColorGamuts: 0000000003000000
   targetPixelDensity: 30
   resolutionScalingMode: 0
+  resetResolutionOnWindowResize: 0
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
@@ -491,6 +493,7 @@ PlayerSettings:
   switchNetworkInterfaceManagerInitializeEnabled: 1
   switchPlayerConnectionEnabled: 1
   switchUseNewStyleFilepaths: 0
+  switchUseLegacyFmodPriorities: 1
   switchUseMicroSleepForYield: 1
   switchEnableRamDiskSupport: 0
   switchMicroSleepForYieldTime: 25
@@ -650,6 +653,7 @@ PlayerSettings:
   metroFTAName: 
   metroFTAFileTypes: []
   metroProtocolName: 
+  vcxProjDefaultLanguage: 
   XboxOneProductId: 
   XboxOneUpdateKey: 
   XboxOneSandboxId: 
@@ -693,6 +697,7 @@ PlayerSettings:
     m_VersionName: 
   apiCompatibilityLevel: 6
   activeInputHandler: 1
+  windowsGamepadBackendHint: 0
   cloudProjectId: 0b2756b4-7df7-4010-b378-410a3519988f
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
